@@ -1,0 +1,107 @@
+.b{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(138, 138, 138));
+}
+.Q{
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+    height: auto;
+    width: 1200px;
+    border-style: solid;
+    text-align: center;
+}
+.a{
+    text-decoration: none;
+    border-style: solid;
+    background-image: linear-gradient(rgb(0, 181, 54),rgb(0, 0, 0));
+    border-radius: 99px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    transition: 0.3s;
+}
+.Vipodaet-eto{
+    display: none;
+    position: absolute;
+    background-image: linear-gradient(rgb(0, 181, 54),rgb(0, 0, 0));
+    min-width: 160;
+    z-index: 1;
+    transition: 0.3s;
+}
+.Vipodaet:hover .Vipodaet-eto{
+    display: block;
+    transition: 0.3s;
+}
+.Vipodaet{
+    display: inline-block;
+    transition: 0.3s;
+}
+a:hover{
+    font-size: 30px;
+    transition: 0.3s;
+    background-image: linear-gradient(rgba(0, 181, 54, 0.339),rgba(0, 0, 0, 0.339));
+}
+html{
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: auto;
+}
+p{
+    color: rgb(255, 255, 255);
+}
+h1{
+    color: rgb(13, 201, 0);
+}
+h2{
+    color: rgb(13, 201, 0);
+}
+ol{
+    color: rgb(13, 201, 0);
+}
+.Y{
+    color: rgb(13, 201, 0);
+    font-family: fantasy;
+}
+table{
+    text-decoration: none;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+th{
+    text-decoration: none;
+    border-style: solid;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+#whitehtml{
+    background-color: white;
+}
+#AaA:hover{
+    background-color: rgb(255, 166, 0);
+    transform: rotate(360deg);
+    width: 200px;
+    height: 200px;
+    font-size: 30px;
+}
+#AaA{
+    transition: transform 2s;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    font-family: 'Rubik Bubbles', cursive;
+    transition: transform 2s, background-color 2s, height 2s, width 2s, font-size 2s;
+}
+.A{
+    list-style-type: disc;
+}
+li{
+    display: inline-block;
+}
